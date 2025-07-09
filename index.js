@@ -26,7 +26,7 @@ app.use(
 app.options("*", cors());
 
 app.get("/", (req , res) => {
-    res.json({data : "hello"});
+    res.json("Backend Running Successfully");
 });
 
 // Create Account
